@@ -1,0 +1,396 @@
+:root {
+  --primary: #0075ff;
+  --second: #0c478c;
+  --foot: #141414;
+  --button2: #ffc430;
+  --secfont: #331716;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Amaranth", "Barlow", sans-serif;
+  /* color: #000; */
+}
+
+/* navbar start */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 4.5%;
+  background-color: var(--primary);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar .navbar-logo {
+  font-size: 2rem;
+  font-weight: 508;
+  color: white;
+}
+
+.navbar .navbar-nav {
+  padding-left: 0;
+}
+
+.navbar .navbar-nav a {
+  color: white;
+  margin: 0.1875rem 1rem;
+  font-size: 1.25rem;
+  font-family: barlow;
+  font-weight: 650;
+  display: inline-block;
+}
+
+.navbar .navbar-nav,
+.navbar a:hover {
+  color: var(--button2);
+}
+
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.2rem;
+  border-bottom: 0.1rem solid var(--button2);
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+.navbar .navbar-nav a:hover::after {
+  transform: scaleX(0.75);
+}
+
+#menu {
+  display: none;
+}
+/* navbar start */
+
+/* hero start */
+.hero,
+.home-2 {
+  min-height: 97vh;
+  display: flex;
+  align-items: center;
+  padding: 0rem 4.5%;
+  margin: 1rem 15rem 0 0;
+}
+
+.hero .row {
+  display: flex;
+  margin: 3.5rem 0 0 0;
+  /* align-items: center; */
+}
+
+.content,
+.home-2-tulisan {
+  width: 550px;
+  height: 300px;
+  margin: 5rem 0 0 10rem;
+  align-items: center;
+}
+
+.content h1,
+.home-2-tulisan h1 {
+  font-size: 40px;
+  color: var(--primary);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.content p,
+.home-2-tulisan p {
+  font-size: 24px;
+  font-family: barlow;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.hero-btn {
+  font-family: barlow;
+  font-weight: 800;
+  margin: 2rem 0 0 0;
+  font-size: 24px;
+  padding: 8px 20px;
+  color: white;
+  background-color: #0038ff;
+  border-radius: 20px;
+}
+
+.hero .hero-img {
+  display: flex;
+}
+
+.hero .hero-img img {
+  width: 406px;
+}
+
+.hero-garis {
+  display: flex;
+  margin: 3rem 0;
+  justify-content: center;
+}
+
+.home-2-img {
+  display: flex;
+}
+
+.home-2-img img {
+  width: 496px;
+}
+/* hero end */
+
+/* home-2  start*/
+
+.home-2 .row {
+  display: flex;
+  margin: 3.6rem 0 0 4rem;
+  /* align-items: center; */
+}
+
+.home-2-tulisan {
+  width: 400px;
+  height: 251px;
+  /* margin: 2rem 0 0 48px; */
+  /* align-items: center; */
+}
+
+.home-2-tulisan h1 {
+  font-size: 40px;
+  color: var(--primary);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.home-2-tulisan p {
+  font-size: 24px;
+  font-family: barlow;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.home-2-img {
+  display: flex;
+}
+
+.home-2-img img {
+  width: 496px;
+  height: 331px;
+}
+
+/* home-2 end */
+
+/* halaman about start*/
+.about,
+.home-2 {
+  min-height: 97vh;
+  display: flex;
+  align-items: center;
+  padding: 0rem 4.5%;
+  margin: 1rem 15rem 0 0;
+}
+
+.about .row {
+  display: flex;
+  margin: 3.5rem 0 0 0;
+  /* align-items: center; */
+}
+
+.content,
+.home-2-tulisan {
+  width: 550px;
+  height: 300px;
+  margin: 5rem 0 0 10rem;
+  align-items: center;
+}
+
+.content h1,
+.home-2-tulisan h1 {
+  font-size: 40px;
+  color: var(--primary);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.content p,
+.home-2-tulisan p {
+  font-size: 24px;
+  font-family: barlow;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.about-btn {
+  font-family: barlow;
+  font-weight: 800;
+  margin: 2rem 0 0 0;
+  font-size: 24px;
+  padding: 8px 20px;
+  color: white;
+  background-color: #0038ff;
+  border-radius: 20px;
+}
+
+.about .about-img {
+  display: flex;
+}
+
+.about .about-img img {
+  width: 406px;
+}
+
+.hero-garis {
+  display: flex;
+  margin: 3rem 0;
+  justify-content: center;
+}
+
+.home-2-img {
+  display: flex;
+}
+
+.home-2-img img {
+  width: 496px;
+}
+/* hero end */
+.text-about {
+  display: block;
+}
+
+/* halaman about end */
+
+/* footer start */
+footer {
+  background-color: var(--foot);
+  align-items: center;
+  height: 450px;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .row .footer-img {
+  display: flex;
+  margin: 5rem 0 5rem 6rem;
+}
+footer .row .footer-img img {
+  width: 290px;
+}
+
+footer .row .contact {
+  width: 256px;
+  height: 190px;
+  margin: 5rem 0 0 0;
+}
+
+footer .row .contact h4,
+.social-media h4 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 1.5rem;
+}
+
+footer .row .social-media {
+  width: 400px;
+  height: 88px;
+  margin: -1rem 0 0 0;
+}
+
+footer .row .social-media h4 {
+  color: white;
+  font-size: 32px;
+  margin-bottom: 1.5rem;
+}
+
+footer .row .contact p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 1.8rem;
+}
+
+footer .row .contact p:hover,
+footer .row .social-media .icon-media i:hover {
+  color: var(--button2);
+}
+
+footer .row .social-media .icon-media i {
+  display: inline-block;
+  color: white;
+  margin-right: 1rem;
+}
+
+footer .footer-line {
+  display: flex;
+  margin: 3rem 0;
+  justify-content: center;
+}
+
+footer .copyright {
+  color: white;
+  text-align: center;
+}
+/* footer end */
+
+/* media queries */
+/* laptop */
+@media (max-width: 1366px) {
+  html {
+    font-size: 100%;
+  }
+}
+/* tablet */
+@media (max-width: 758px) {
+  html {
+    font-size: 62%;
+  }
+  #menu {
+    display: inline-block;
+  }
+  .navbar .navbar-nav .namaMenu {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: var(--foot);
+    width: 30rem;
+    height: 100vh;
+  }
+  .navbar .navbar-nav .namaMenu.active {
+    right: 0;
+  }
+  .navbar .navbar-nav .namaMenu a {
+    color: white;
+    display: block;
+    margin: 1rem;
+    /* 0.1875rem 1rem; */
+    padding: 0.3rem;
+    font-size: 1.25rem;
+  }
+  .navbar .navbar-nav a::after {
+    transform-origin: 0 0;
+  }
+  .navbar .navbar-nav .namaMenu a:hover {
+    color: var(--button2);
+  }
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.1);
+  }
+}
+/* mobile phone */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
