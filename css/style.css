@@ -42,12 +42,17 @@ body {
 }
 
 .navbar .navbar-nav {
+  padding-left: 32rem;
+}
+
+.navbar-icon {
   padding-left: 0;
 }
 
-.navbar .navbar-nav a {
+.navbar .navbar-nav a,
+.navbar-icon a {
   color: white;
-  margin: 0.1875rem 1rem;
+  margin: 0.1875rem 1.1rem 0 1rem;
   font-size: 1.25rem;
   font-family: barlow;
   font-weight: 650;
@@ -55,11 +60,13 @@ body {
 }
 
 .navbar .navbar-nav,
-.navbar a:hover {
+.navbar a:hover,
+.navbar-icon a:hover {
   color: var(--button2);
 }
 
-.navbar .navbar-nav a::after {
+.navbar .navbar-nav a::after,
+.navbar-icon a::after {
   content: "";
   display: block;
   padding-bottom: 0.2rem;
@@ -67,13 +74,34 @@ body {
   transform: scaleX(0);
   transition: 0.2s linear;
 }
-.navbar .navbar-nav a:hover::after {
+.navbar .navbar-nav a:hover::after,
+.navbar-icon a:hover::after {
   transform: scaleX(0.75);
 }
 
 #menu {
   display: none;
 }
+
+.namaMenu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.namaMenu > ul > li {
+  float: left;
+}
+
+.namaMenu li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+}
+
 /* navbar start */
 
 /* hero start */
