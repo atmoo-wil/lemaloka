@@ -252,82 +252,99 @@ li.dropdown {
 
 /* home-2 end */
 
+/* -------------------------------------------------------- */
+
 /* halaman about start*/
-.about,
-.home-2 {
+.about .row-about {
   min-height: 97vh;
+  width: 100%;
   display: flex;
+  align-items: flex-start;
+  /* padding: 0 4.5%; */
+  margin: 0 15rem 0 0;
+}
+
+.text-about {
+  display: block;
+  font-size: 46px;
+  margin: 8.5rem 0 1rem 7rem;
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+.content-about {
+  width: 556px;
+  height: 241px;
+  margin: 2rem 0 0 7rem;
   align-items: center;
-  padding: 0rem 4.5%;
-  margin: 1rem 15rem 0 0;
 }
 
-.about .row {
-  display: flex;
-  margin: 3.5rem 0 0 0;
-  /* align-items: center; */
-}
-
-.content,
-.home-2-tulisan {
-  width: 550px;
-  height: 300px;
-  margin: 5rem 0 0 10rem;
-  align-items: center;
-}
-
-.content h1,
-.home-2-tulisan h1 {
-  font-size: 40px;
+.content-about h3 {
+  font-size: 28px;
   color: var(--primary);
-  font-weight: 400;
-  margin-bottom: 2rem;
+  font-weight: 560;
+  margin-bottom: 1rem;
 }
 
-.content p,
-.home-2-tulisan p {
-  font-size: 24px;
+.content-about h2 {
+  font-size: 40px;
+  font-family: barlow;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.content-about p {
+  font-size: 22px;
   font-family: barlow;
   text-align: justify;
   font-weight: 500;
 }
 
-.about-btn {
-  font-family: barlow;
-  font-weight: 800;
-  margin: 2rem 0 0 0;
-  font-size: 24px;
-  padding: 8px 20px;
-  color: white;
-  background-color: #0038ff;
-  border-radius: 20px;
+.content-about .utk-penj {
+  margin-top: 2rem;
 }
-
 .about .about-img {
-  display: flex;
+  /* display: flex; */
+  margin: 0 0 0 5.6rem;
 }
 
 .about .about-img img {
-  width: 406px;
+  width: 376px;
 }
 
-.hero-garis {
+/* ---------------------------------- */
+/* about bagian2 start */
+.about2 {
+  min-width: 1200px;
+  height: 758px;
+  /* display:flex; */
+  align-items: center;
+  background-image: url("../assets/Vector\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* background-image: url("../assets/rec.png"); */
+}
+
+.container-about2 {
+  top: 130px;
+}
+
+.container-about2 h1 {
+  color: black;
+  font-size: 48px;
+  text-align: center;
+}
+
+.about2 .ktk-artinama {
+  min-height: 97vh;
+  width: 100%;
   display: flex;
-  margin: 3rem 0;
-  justify-content: center;
+  align-items: center;
+  /* padding: 0 4.5%; */
+  margin: 0 15rem 0 0;
 }
 
-.home-2-img {
-  display: flex;
-}
-
-.home-2-img img {
-  width: 496px;
-}
-/* hero end */
-.text-about {
-  display: block;
-}
+/* about bagian2 end */
 
 /* halaman about end */
 
