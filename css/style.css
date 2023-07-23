@@ -102,6 +102,43 @@ body {
   text-decoration: none;
 }
 
+.namaMenu > ul > li {
+  float: left;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+  display: block;
+}
+
+.isi-dropdown {
+  position: absolute;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 0 0 5px 5px;
+  z-index: 1;
+  background-color: #0075ff;
+  top: 3rem;
+}
+
+.isi-dropdown li {
+  color: #f3f3f3 !important;
+  margin-top: 0.4rem;
+  text-align: center;
+  width: 8rem;
+}
+
+.isi-dropdown a:hover {
+  color: #0075ff !important;
+  background: #f3f3f3 !important;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 /* navbar start */
 
 /* hero start */
