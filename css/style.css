@@ -214,7 +214,7 @@ li.dropdown {
 
 .home-2 .row-home2 {
   display: flex;
-  margin: 3.6rem 0 0 4rem;
+  margin: 3.6rem 0 13rem 4rem;
   /* align-items: center; */
   width: 1030px;
   height: 331px;
@@ -315,7 +315,7 @@ li.dropdown {
 /* about bagian2 start */
 .about2 {
   min-width: 1200px;
-  height: 758px;
+  height: 720px;
   /* display:flex; */
   align-items: center;
   background-image: url("../assets/Vector\ 1.png");
@@ -326,27 +326,95 @@ li.dropdown {
 }
 
 .container-about2 {
-  top: 130px;
+  /* top: 130px; */
+  padding: 11rem 0 0 0;
 }
 
 .container-about2 h1 {
-  color: black;
+  color: white;
   font-size: 48px;
   text-align: center;
 }
 
-.about2 .ktk-artinama {
-  min-height: 97vh;
-  width: 100%;
+.ktk-artinama {
+  width: 1080px;
+  height: 281px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  /* padding: 0 4.5%; */
-  margin: 0 15rem 0 0;
+  padding: 0 5rem 0 3rem;
+  margin: 6rem 5rem 0 5rem;
+  border: 2px solid #eaeaea;
+  background-color: #eaeaea;
+  border-radius: 50px;
 }
 
+.ktk-artinama h2 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.ktk-artinama .h2-ktk {
+  display: block;
+}
+
+.ktk-ikon {
+  width: 116px;
+  height: 105px;
+  background-color: #1d213b;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.ktk-ikon img {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+}
+
+.ktk-artinama h6 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0.8rem 0 0.8rem 0;
+}
+
+.ktk-artinama p {
+  font-size: 14px;
+  text-align: center;
+}
 /* about bagian2 end */
 
+/* ------------------------------- */
+/* about bagian3 start */
+.ktk-logo {
+  width: 409px;
+  height: 167px;
+  margin: 6rem auto 2rem auto;
+  border: 2px solid #1d213b;
+  background-color: #1d213b;
+  border-radius: 20px;
+}
+
+.ktk-logo img {
+  width: 348px;
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+.text-about3 {
+  width: 937px;
+  height: 284px;
+  font-family: barlow;
+  font-size: 24px;
+  display: block;
+  margin: 4rem auto 8rem auto;
+  text-align: center;
+}
+/* about bagian3 end */
+
 /* halaman about end */
+/* ---------------------------------------------------------------- */
 
 /* footer start */
 footer {
