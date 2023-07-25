@@ -264,7 +264,8 @@ li.dropdown {
   margin: 0 15rem 0 0;
 }
 
-.text-about {
+.text-about,
+.text-contact {
   display: block;
   font-size: 46px;
   margin: 8.5rem 0 1rem 7rem;
@@ -302,12 +303,14 @@ li.dropdown {
 .content-about .utk-penj {
   margin-top: 2rem;
 }
-.about .about-img {
+.about .about-img,
+.contact-img {
   /* display: flex; */
   margin: 0 0 0 5.6rem;
 }
 
-.about .about-img img {
+.about .about-img img,
+.contact-img img {
   width: 376px;
 }
 
@@ -507,10 +510,113 @@ li.dropdown {
   margin-top: 13rem;
   margin-bottom: 15rem;
 }
-
 /* blog bagian 2 end */
+/* ------------------------------------------------------------------ */
+/* contact start */
+.row-contact {
+  /* min-height: 97vh; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* padding: 0 4.5%; */
+  margin: 3rem 15rem 0 0;
+  justify-content: space-between;
+}
 
-/* bog end */
+.contact-img {
+  align-self: flex-start;
+  margin-top: 4rem;
+}
+
+.form {
+  width: 500px;
+  height: 590px;
+  border-radius: 10px;
+  background-color: #eaeaea;
+  border: 1px solid black;
+  font-size: 16px;
+  margin: 0 8rem 10rem 0;
+  padding: 2rem 3rem;
+}
+
+.alert-form {
+  margin-bottom: 1rem;
+  background-color: lightgreen;
+  height: 2rem;
+  padding: 0.5rem 0 1rem 1rem;
+  border-radius: 0.3rem;
+  opacity: 1;
+}
+
+.alert-none {
+  display: none;
+}
+
+.closebtn {
+  margin: 0 1rem 0 0.2rem;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  transform: scale(1.5);
+}
+
+.form h1 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.form .label-form {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  /* border-bottom: 1px solid black; */
+}
+
+.btn-form {
+  width: 100%;
+  height: 47px;
+  background-color: #0038ff;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: amaranth;
+  margin-top: 1rem;
+}
+
+.btn-form:hover {
+  transform: scale(1.02);
+}
+
+.btn-loading {
+  display: none;
+}
+
+.input-form1,
+.input-form2,
+.input-form3,
+.input-form4 {
+  width: 100%;
+  height: 1.8rem;
+  padding: 0 1rem;
+  font-family: amaranth;
+  border-radius: 5px;
+  background-color: #eaeaea;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.input-form4 {
+  height: 8rem;
+  padding-top: 0.5rem;
+}
+
+/* contact end */
 
 /* ----------------------------------------------------------------- */
 /* footer start */
