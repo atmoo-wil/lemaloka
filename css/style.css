@@ -265,7 +265,8 @@ li.dropdown {
 }
 
 .text-about,
-.text-contact {
+.text-contact,
+.text-maintenance {
   display: block;
   font-size: 46px;
   margin: 8.5rem 0 1rem 7rem;
@@ -617,7 +618,25 @@ li.dropdown {
 }
 
 /* contact end */
+/* ----------------------------------------------------------------- */
+/* maintenance start */
+.text-maintenance {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
 
+.maintenance-img img {
+  width: 368px;
+  margin: 0 28rem;
+}
+
+.content-maintenance {
+  font-size: 32px;
+  font-family: barlow;
+  text-align: center;
+}
+/* maintenance end */
 /* ----------------------------------------------------------------- */
 /* footer start */
 footer {
