@@ -25,36 +25,161 @@
   </head>
   <body>
     <!-- navbar start-->
-    <nav class="navbar">
+    <header class="navbar">
       <a href="#" class="navbar-logo">Lemaloka</a>
 
       <div class="navbar-nav">
         <span class="namaMenu">
-          <a href="./index.html">Home</a>
-          <a href="./about.html">About</a>
-          <a href="./blog.html">Blog</a>
-          <a href="#">Others</a>
-          <a href="./contact.html">Contact</a>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li class="dropdown">
+              <a href="#">Others</a>
+              <ul class="isi-dropdown">
+                <li>
+                  <a href="https://www.instagram.com/atmoo.wil/" target="_blank"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCRsCW3QpVmo7tu4UcHmCdCQ"
+                    target="_blank"
+                    >Youtube</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.tiktok.com/@lemaloka.winaya"
+                    target="_blank"
+                    >Tiktok</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
         </span>
+      </div>
+      <div class="navbar-icon">
         <a href="#" id="search"><i class="fa-solid fa-magnifying-glass"></i></a>
         <a href="#" id="menu"><i class="fa-solid fa-bars"></i></a>
       </div>
-
-      <!-- <div class="navbar-extra">
-      
-            </div> -->
-    </nav>
+    </header>
     <!-- navbar end-->
 
-    <section id="about" class="about">
-      <div class="row">
-        <h1 class="text-about">Blog</h1>
-        <button class="hero-btn">Masa Sekolah</button>
-        <button class="hero-btn">Bena Winaya</button>
-        <button class="hero-btn">Semoga Senda</button>
+    <section id="blog" class="blog">
+      <h1 class="text-about">Blog</h1>
+      <div class="row-blog">
+        <a href="./maintenance.html" target="_blank">
+          <button class="blog-btn">Masa Sekolah</button>
+        </a>
+        <a href="./maintenance.html" target="_blank">
+          <button class="blog-btn">Bena Winaya</button>
+        </a>
+        <a href="./maintenance.html" target="_blank">
+          <button class="blog-btn semoga">Semoga Senda</button>
+        </a>
       </div>
     </section>
 
+    <section id="isi-blog">
+      <div class="row-isiBlog">
+        <div class="content-blog">
+          <a href="./maintenance.html" target="_blank">
+            <div class="img-blog img1"></div>
+          </a>
+          <h5>Belajar main</h5>
+          <p>Juli, 2023 - 0 comments</p>
+        </div>
+        <div class="content-blog">
+          <a href="./maintenance.html" target="_blank">
+            <div class="img-blog img2"></div>
+          </a>
+          <h5>Ke luar rumah</h5>
+          <p>Agust, 2023 - 0 comments</p>
+        </div>
+        <div class="content-blog">
+          <a href="./maintenance.html" target="_blank">
+            <div class="img-blog img3"></div>
+          </a>
+          <h5>Gak usah repot</h5>
+          <p>Sep, 2023 - 0 comments</p>
+        </div>
+      </div>
+
+      <div class="row-isiBlog row2-isiBlog">
+        <div class="content-blog">
+          <a href="./maintenance.html" target="_blank">
+            <div class="img-blog img4"></div>
+          </a>
+          <h5>Teman sendirian</h5>
+          <p>Oct, 2023 - 0 comments</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row">
+        <div class="footer-img">
+          <img src="./assets/logo.png" alt="" />
+        </div>
+        <div class="contact">
+          <h4>Contact</h4>
+          <a href="https://www.linkedin.com/in/atmoo-wil/" target="_blank">
+            <p>
+              <i
+                class="fa-brands fa-linkedin fa-xl"
+                style="margin-right: 0.8rem"
+              ></i
+              >atmoo-wil
+            </p>
+          </a>
+          <p>
+            <i
+              class="fa-regular fa-envelope fa-xl"
+              style="margin-right: 0.7rem"
+            ></i
+            >wilaga.atmo@gmail.com
+          </p>
+          <p>
+            <i
+              class="fa-solid fa-location-dot fa-xl"
+              style="margin-right: 1rem"
+            ></i
+            >Indonesia
+          </p>
+        </div>
+        <div class="social-media">
+          <h4>Social Media</h4>
+          <div class="icon-media">
+            <a href="https://www.instagram.com/atmoo.wil/" target="_blank">
+              <i class="fa-brands fa-instagram fa-2xl"></i>
+            </a>
+            <a href="https://www.tiktok.com/@lemaloka.winaya" target="_blank">
+              <i class="fa-brands fa-tiktok fa-2xl"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCRsCW3QpVmo7tu4UcHmCdCQ"
+              target="_blank"
+            >
+              <i class="fa-brands fa-youtube fa-2xl"></i>
+            </a>
+            <a href="https://twitter.com/lemalokawinaya" target="_blank">
+              <i class="fa-brands fa-twitter fa-2xl"></i>
+            </a>
+            <a href="https://github.com/atmoo-wil" target="_blank">
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-line">
+        <img src="./assets/Line 2.png" alt="" />
+      </div>
+      <p class="copyright">Copyright © 2023 Lemaloka</p>
+    </footer>
     <!-- my javascript -->
     <script src="js/script.js"></script>
   </body>

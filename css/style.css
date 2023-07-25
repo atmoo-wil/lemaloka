@@ -416,6 +416,103 @@ li.dropdown {
 /* halaman about end */
 /* ---------------------------------------------------------------- */
 
+/* blog start */
+.blog .row-blog {
+  display: flex;
+  align-items: center;
+  /* padding: 0 4.5%; */
+  margin: 0 10rem;
+  justify-content: space-between;
+}
+
+.blog-btn {
+  font-family: amaranth;
+  font-weight: 700;
+  margin: 2rem 0 0 0;
+  font-size: 32px;
+  padding: 8px 10px;
+  color: #331716;
+  background-color: #ffc430;
+  border: 2px solid #000;
+  box-shadow: 0px 8px 2rem 0px rgba(0, 0, 0, 0.2);
+}
+
+.blog-btn:hover {
+  transform: scale(1.03);
+}
+
+.semoga {
+  margin-right: -2rem;
+}
+
+/* ----------------------------------- */
+/* blog bagian 2  start*/
+
+.row-isiBlog {
+  display: flex;
+  margin: 5rem 7rem;
+  justify-content: space-between;
+}
+
+.row-isiBlog .content-blog {
+  width: 290px;
+  height: 249.62px;
+  text-align: center;
+  /* margin: 0 1rem; */
+}
+
+.content-blog .img-blog {
+  width: 316px;
+  height: 272px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-size: cover;
+  background-position: 0.01rem;
+  background-repeat: no-repeat;
+  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.img1 {
+  background-image: url("../assets/7.jpg");
+}
+
+.img2 {
+  background-image: url("../assets/6.jpg");
+}
+
+.img3 {
+  background-image: url("../assets/3.jpg");
+}
+
+.img4 {
+  background-image: url("../assets/4.jpg");
+}
+
+.content-blog .img-blog:hover {
+  transform: scale(1.02);
+}
+
+.content-blog h5 {
+  font-size: 24px;
+  margin-top: 1rem;
+}
+
+.content-blog p {
+  font-family: barlow;
+  font-size: 20px;
+  margin-top: 0.5rem;
+}
+
+.row2-isiBlog {
+  margin-top: 13rem;
+  margin-bottom: 15rem;
+}
+
+/* blog bagian 2 end */
+
+/* bog end */
+
+/* ----------------------------------------------------------------- */
 /* footer start */
 footer {
   background-color: var(--foot);
