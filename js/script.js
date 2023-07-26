@@ -6,12 +6,26 @@ document.querySelector("#menu").onclick = () => {
   namaMenu.classList.toggle("active");
 };
 
+// Toggle class active untuk search form
+const searchForm = document.querySelector(".search-form");
+const searchBox = document.querySelector("#search-box");
+
+document.querySelector("#search").onclick = (e) => {
+  searchForm.classList.toggle("active");
+  searchBox.focus();
+  e.preventDefault();
+};
+
 // ketika di luar sidebar
 const menu = document.querySelector("#menu");
+const sb = document.querySelector("#search");
 
 document.addEventListener("click", function (e) {
   if (!menu.contains(e.target) && !namaMenu.contains(e.target)) {
     namaMenu.classList.remove("active");
+  }
+  if (!sb.contains(e.target) && !searchForm.contains(e.target)) {
+    searchForm.classList.remove("active");
   }
 });
 
