@@ -85,9 +85,6 @@ body {
 
 .namaMenu ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
 }
 
 .namaMenu > ul > li {
@@ -95,17 +92,12 @@ body {
 }
 
 .namaMenu li a {
-  display: inline-block;
   color: white;
   text-align: center;
-  /* padding: 14px 16px; */
   text-decoration: none;
 }
 
-.namaMenu > ul > li {
-  float: left;
-}
-
+/* dropdown */
 li.dropdown {
   display: inline-block;
 }
@@ -125,15 +117,15 @@ li.dropdown {
 }
 
 .isi-dropdown li {
-  color: #f3f3f3 !important;
+  color: #f3f3f3;
   margin-top: 0.4rem;
   text-align: center;
   width: 8rem;
 }
 
 .isi-dropdown a:hover {
-  color: #0075ff !important;
-  background: #f3f3f3 !important;
+  color: #0075ff;
+  background: #f3f3f3;
   width: 100%;
   padding: 0;
   margin: 0;
@@ -760,29 +752,36 @@ footer .copyright {
 /* tablet */
 @media (max-width: 758px) {
   html {
-    font-size: 62%;
+    font-size: 70%;
   }
   #menu {
     display: inline-block;
   }
+
   .navbar .navbar-nav .namaMenu {
     position: absolute;
     top: 100%;
     right: -100%;
-    background-color: var(--foot);
-    width: 30rem;
-    height: 100vh;
+    background-color: var(--primary);
+    border: 1px solid black;
+    width: 20rem;
+    transition: 0.3s;
   }
   .navbar .navbar-nav .namaMenu.active {
     right: 0;
   }
-  .navbar .navbar-nav .namaMenu a {
+
+  .namaMenu > ul > li {
+    float: none;
+  }
+
+  .navbar-nav .namaMenu li {
     color: white;
-    display: block;
-    margin: 1rem;
-    /* 0.1875rem 1rem; */
-    padding: 0.3rem;
+    padding: 1rem;
     font-size: 1.25rem;
+    display: block;
+    margin: auto;
+    border-bottom: 1px solid black;
   }
   .navbar .navbar-nav a::after {
     transform-origin: 0 0;
@@ -793,7 +792,30 @@ footer .copyright {
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.1);
   }
+
+  .isi-dropdown {
+    position: relative;
+    top: 0;
+    box-shadow: none;
+    border-radius: none;
+    border-bottom: none;
+  }
+  .isi-dropdown li {
+    text-align: left;
+    width: 100%;
+  }
+  .isi-dropdown a:hover {
+    background: none;
+    color: white;
+    margin-top: 0.4rem;
+    padding: none;
+    text-align: left;
+  }
 }
+
+/* .isi-dropdown a:hover {
+  right: 200%;
+} */
 /* mobile phone */
 @media (max-width: 450px) {
   html {
