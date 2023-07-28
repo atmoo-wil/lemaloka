@@ -802,10 +802,10 @@ footer .copyright {
   .navbar .navbar-nav .namaMenu {
     position: absolute;
     top: 100%;
-    right: -120%;
+    right: -150%;
     background-color: var(--primary);
     border: 1px solid black;
-    width: 48rem;
+    width: 38rem;
     transition: 0.3s;
   }
   .navbar .navbar-nav .namaMenu.active {
@@ -858,7 +858,7 @@ footer .copyright {
   right: 200%;
 } */
 /* mobile phone */
-@media (max-width: 450px) {
+@media (max-width: 360px) {
   html {
     font-size: 60%;
   }
@@ -906,6 +906,7 @@ footer .copyright {
   .home-2 .row-home2 {
     display: block;
   }
+
   .home-2-img {
     margin: auto;
   }
@@ -914,6 +915,10 @@ footer .copyright {
     height: auto;
     align-self: center;
     /* margin: auto; */
+  }
+  .home-2 .home-2-tulisan {
+    width: 80%;
+    height: auto;
   }
   .home-2-tulisan h1 {
     font-size: 20px;
