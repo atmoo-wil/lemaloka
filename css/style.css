@@ -277,38 +277,34 @@ li.dropdown {
 /* halaman about start*/
 .about .row-about {
   min-height: 97vh;
-  width: 100%;
   display: flex;
-  align-items: flex-start;
-  /* padding: 0 4.5%; */
-  margin: 0 15rem 0 0;
+  justify-content: space-between;
+  margin: 1rem 7rem 3rem 7rem;
 }
 
 .text-about,
 .text-contact,
 .text-maintenance {
   display: block;
-  font-size: 46px;
+  font-size: 2.875rem;
   margin: 8.5rem 0 1rem 7rem;
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.25);
 }
 
 .content-about {
-  width: 556px;
-  height: 241px;
-  margin: 2rem 0 0 7rem;
-  align-items: center;
+  width: 34.75rem;
+  height: 15.0625rem;
 }
 
 .content-about h3 {
-  font-size: 28px;
+  font-size: 1.75rem;
   color: var(--primary);
   font-weight: 560;
-  margin-bottom: 1rem;
+  margin: 2.1rem 0 1rem 0;
 }
 
 .content-about h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-family: barlow;
   color: black;
   font-weight: 700;
@@ -326,13 +322,12 @@ li.dropdown {
 }
 .about .about-img,
 .contact-img {
-  /* display: flex; */
-  margin: 0 0 0 5.6rem;
+  margin-right: 1.1rem;
 }
 
 .about .about-img img,
 .contact-img img {
-  width: 376px;
+  width: 23.5rem;
 }
 
 /* ---------------------------------- */
@@ -671,7 +666,7 @@ footer .row-foot {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5rem;
+  padding: 5rem 5rem 0 5rem;
 }
 
 /* kolom 1 - logo */
@@ -916,8 +911,49 @@ footer .copyright {
   .home-2-tulisan button {
     font-size: 14px;
   }
+
+  /* about */
+  .about .row-about {
+    display: block;
+    margin: 1rem 3.5rem;
+  }
+  .text-about {
+    margin-left: 3.5rem;
+    font-size: 20px;
+  }
+
+  .content-about {
+    width: 90%;
+    margin: 0;
+  }
+
+  .content-about h3 {
+    font-size: 16px;
+  }
+  .content-about h2 {
+    font-size: 18px;
+  }
+
+  .content-about p {
+    font-size: 14px;
+    margin-top: 20rem;
+  }
+
+  .about .about-img {
+    margin: -6rem 5rem 0 5rem;
+  }
+
+  .about .about-img img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* footer */
   footer .row-foot {
     align-items: flex-start;
-    padding: 5rem 0;
+    padding: 5rem 0 0 0;
+  }
+  footer .footer-line {
+    margin: 3rem 5rem;
   }
 }
