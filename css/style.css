@@ -239,13 +239,12 @@ li.dropdown {
 /* hero end */
 
 /* home-2  start*/
-
 .home-2 .row-home2 {
   display: flex;
   margin: 3.6rem 0 13rem 4rem;
   /* align-items: center; */
-  width: 1030px;
-  height: 331px;
+  width: 64.375rem;
+  height: 20.6875rem;
 }
 
 /* .home-2-img {
@@ -258,8 +257,8 @@ li.dropdown {
 }
 
 .row-home2 .home-2-tulisan {
-  width: 487px;
-  height: 251px;
+  width: 30.4375rem;
+  height: 15.6875rem;
   margin: 1.5rem 0 0 3.2rem;
   align-items: center;
 }
@@ -803,10 +802,10 @@ footer .copyright {
   .navbar .navbar-nav .namaMenu {
     position: absolute;
     top: 100%;
-    right: -100%;
+    right: -120%;
     background-color: var(--primary);
     border: 1px solid black;
-    width: 20rem;
+    width: 48rem;
     transition: 0.3s;
   }
   .navbar .navbar-nav .namaMenu.active {
@@ -823,7 +822,7 @@ footer .copyright {
     font-size: 1.25rem;
     display: block;
     margin: auto;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
   }
   .navbar .navbar-nav a::after {
     transform-origin: 0 0;
@@ -861,6 +860,66 @@ footer .copyright {
 /* mobile phone */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    font-size: 60%;
+  }
+
+  .hero {
+    padding: 0;
+    margin: 0;
+    margin-top: 8rem;
+    min-height: 30vh;
+    align-content: center;
+  }
+
+  .content {
+    align-content: center;
+    margin: 0 auto;
+    /* width: 55%;
+    height: auto; */
+  }
+
+  .content h1 {
+    font-size: 20px;
+  }
+
+  .content p,
+  .content button {
+    font-size: 14px;
+  }
+
+  .hero-garis {
+    width: 100%;
+    align-items: center;
+  }
+  .hero-garis img {
+    width: 80%;
+  }
+
+  /* home2 */
+
+  .home-2 {
+    min-height: 60vh;
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+  }
+  .home-2 .row-home2 {
+    display: block;
+  }
+  .home-2-img {
+    margin: auto;
+  }
+  .home-2-img img {
+    width: 25rem;
+    height: auto;
+    align-self: center;
+    /* margin: auto; */
+  }
+  .home-2-tulisan h1 {
+    font-size: 20px;
+  }
+  .home-2-tulisan p,
+  .home-2-tulisan button {
+    font-size: 14px;
   }
 }

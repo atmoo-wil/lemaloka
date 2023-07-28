@@ -36,23 +36,23 @@ const btnKirim = document.querySelector(".btn-kirim");
 const btnLoading = document.querySelector(".btn-loading");
 const alert = document.querySelector(".alert-form");
 
-form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  // ketika klik kirim
-  // tampilkan tombol loading & hilangkan tombol kirim
-  btnKirim.classList.toggle("btn-loading");
-  btnLoading.classList.toggle("btn-loading");
-  fetch(scriptURL, { method: "POST", body: new FormData(form) })
-    .then((response) => {
-      btnKirim.classList.toggle("btn-loading");
-      btnLoading.classList.toggle("btn-loading");
-      alert.classList.toggle("alert-none");
-      form.reset();
-      console.log("Success!", response);
-    })
-    .catch((error) => console.error("Error!", error.message));
-});
+// form.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   // ketika klik kirim
+//   // tampilkan tombol loading & hilangkan tombol kirim
+//   btnKirim.classList.toggle("btn-loading");
+//   btnLoading.classList.toggle("btn-loading");
+//   fetch(scriptURL, { method: "POST", body: new FormData(form) })
+//     .then((response) => {
+//       btnKirim.classList.toggle("btn-loading");
+//       btnLoading.classList.toggle("btn-loading");
+//       alert.classList.toggle("alert-none");
+//       form.reset();
+//       console.log("Success!", response);
+//     })
+//     .catch((error) => console.error("Error!", error.message));
+// });
 
-document.querySelector(".closebtn").onclick = () => {
-  alert.classList.toggle("alert-none");
-};
+// document.querySelector(".closebtn").onclick = () => {
+//   alert.classList.toggle("alert-none");
+// };
