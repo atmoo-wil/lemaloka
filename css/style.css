@@ -171,8 +171,7 @@ li.dropdown {
 /* navbar start */
 
 /* hero start */
-.hero,
-.home-2 {
+.hero {
   min-height: 97vh;
   display: flex;
   justify-content: space-between;
@@ -210,7 +209,7 @@ li.dropdown {
   font-weight: 800;
   margin: 2rem 0 0 0;
   font-size: 24px;
-  padding: 8px 20px;
+  padding: 0.5rem 1.25rem;
   color: white;
   background-color: #0038ff;
   border-radius: 20px;
@@ -241,15 +240,9 @@ li.dropdown {
 /* home-2  start*/
 .home-2 .row-home2 {
   display: flex;
-  margin: 3.6rem 0 13rem 4rem;
-  /* align-items: center; */
-  width: 64.375rem;
-  height: 20.6875rem;
+  margin: 10rem 8rem;
+  justify-content: space-between;
 }
-
-/* .home-2-img {
-  display: flex;
-} */
 
 .home-2-img img {
   width: 496px;
@@ -873,13 +866,14 @@ footer .copyright {
 
   .content {
     align-content: center;
-    margin: 0 auto;
+    margin: 5rem 4rem 2rem 4rem;
     /* width: 55%;
     height: auto; */
   }
 
   .content h1 {
     font-size: 20px;
+    text-align: center;
   }
 
   .content p,
@@ -897,18 +891,13 @@ footer .copyright {
 
   /* home2 */
 
-  .home-2 {
-    min-height: 60vh;
-    margin: 0;
-    padding: 0;
-    align-items: flex-start;
-  }
   .home-2 .row-home2 {
     display: block;
+    margin: 0;
   }
 
   .home-2-img {
-    margin: auto;
+    margin: 8rem 5rem 0rem 5rem;
   }
   .home-2-img img {
     width: 25rem;
@@ -917,14 +906,18 @@ footer .copyright {
     /* margin: auto; */
   }
   .home-2 .home-2-tulisan {
-    width: 80%;
-    height: auto;
+    margin: 5rem 4rem 10rem 4rem;
   }
   .home-2-tulisan h1 {
     font-size: 20px;
+    text-align: center;
   }
   .home-2-tulisan p,
   .home-2-tulisan button {
     font-size: 14px;
+  }
+  footer .row-foot {
+    align-items: flex-start;
+    padding: 5rem 0;
   }
 }
