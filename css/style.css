@@ -333,8 +333,8 @@ li.dropdown {
 /* ---------------------------------- */
 /* about bagian2 start */
 .about2 {
-  min-width: 1200px;
-  height: 720px;
+  min-width: 75rem;
+  height: 45rem;
   /* display:flex; */
   align-items: center;
   background-image: url("../assets/Vector\ 1.png");
@@ -351,13 +351,13 @@ li.dropdown {
 
 .container-about2 h1 {
   color: white;
-  font-size: 48px;
+  font-size: 3rem;
   text-align: center;
 }
 
 .ktk-artinama {
-  width: 1080px;
-  height: 281px;
+  width: 67.5rem;
+  height: 17.5625rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -365,11 +365,11 @@ li.dropdown {
   margin: 6rem 5rem 0 5rem;
   border: 2px solid #eaeaea;
   background-color: #eaeaea;
-  border-radius: 50px;
+  border-radius: 3.125rem;
 }
 
 .ktk-artinama h2 {
-  font-size: 40px;
+  font-size: 2.5rem;
   margin: 0;
 }
 
@@ -377,30 +377,45 @@ li.dropdown {
   display: block;
 }
 
+.h2-ktk span {
+  display: block;
+}
+
 .ktk-ikon {
-  width: 116px;
-  height: 105px;
+  width: 7.25rem;
+  height: 6.5625rem;
   background-color: #1d213b;
-  border-radius: 20px;
+  border-radius: 1.25rem;
   display: flex;
   justify-content: center;
 }
 
+.kolom1-ikon,
+.kolom2-ikon {
+  display: flex;
+  justify-content: space-between;
+}
+
+#lema,
+#bena {
+  margin-right: 4.5rem;
+}
+
 .ktk-ikon img {
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   align-self: center;
 }
 
 .ktk-artinama h6 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
   margin: 0.8rem 0 0.8rem 0;
 }
 
 .ktk-artinama p {
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
 }
 /* about bagian2 end */
@@ -408,24 +423,24 @@ li.dropdown {
 /* ------------------------------- */
 /* about bagian3 start */
 .ktk-logo {
-  width: 409px;
-  height: 167px;
+  width: 25.5625rem;
+  height: 10.4375rem;
   margin: 6rem auto 2rem auto;
   border: 2px solid #1d213b;
   background-color: #1d213b;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 .ktk-logo img {
-  width: 348px;
-  margin: 1rem 2rem 1rem 2rem;
+  width: 21.75rem;
+  margin: 1rem 2rem;
 }
 
 .text-about3 {
-  width: 937px;
-  height: 284px;
+  width: 58.5625rem;
+  height: 17.75rem;
   font-family: barlow;
-  font-size: 24px;
+  font-size: 1.5rem;
   display: block;
   margin: 4rem auto 8rem auto;
   text-align: center;
@@ -883,7 +898,7 @@ footer .copyright {
   .hero-garis img {
     width: 80%;
   }
-
+  /* ------------------------------------------------ */
   /* home2 */
 
   .home-2 .row-home2 {
@@ -901,7 +916,7 @@ footer .copyright {
     /* margin: auto; */
   }
   .home-2 .home-2-tulisan {
-    margin: 5rem 4rem 10rem 4rem;
+    margin: 5rem 4rem 0rem 4rem;
   }
   .home-2-tulisan h1 {
     font-size: 20px;
@@ -916,6 +931,7 @@ footer .copyright {
   .about .row-about {
     display: block;
     margin: 1rem 4rem;
+    min-height: 75vh;
   }
   .text-about {
     margin-left: 4rem;
@@ -923,25 +939,29 @@ footer .copyright {
   }
 
   .content-about {
-    width: 99%;
+    width: 100%;
     margin: 0;
   }
 
   .content-about h3 {
     font-size: 16px;
+    /* text-align: center; */
   }
   .content-about h2 {
-    margin-top: 20rem;
+    /* margin-top: 20rem; */
     font-size: 18px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .content-about p {
     font-size: 14px;
+    margin-top: 21rem;
+    margin-bottom: 0;
   }
 
   .about .about-img {
-    margin: -11rem 5rem 0 5rem;
+    /* margin: -11rem 5rem 0 5rem; */
+    margin: -5rem 5rem 0 5rem;
   }
 
   .about .about-img img {
@@ -950,6 +970,55 @@ footer .copyright {
     margin: 0 2rem;
   }
 
+  /* about 2 */
+  .about2 {
+    min-width: 0;
+    height: auto;
+    padding-bottom: 8rem;
+  }
+  .container-about2 h1 {
+    font-size: 18px;
+  }
+  .ktk-artinama {
+    width: auto;
+    height: auto;
+    display: block;
+    padding: 2rem 4rem;
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .ktk-artinama h2 {
+    font-size: 18px;
+    margin-bottom: 2rem;
+  }
+
+  .h2-ktk span {
+    display: inline;
+  }
+
+  .ktk-ikon {
+    margin: 1rem auto;
+  }
+  .kolom1-ikon {
+    margin-bottom: 3rem;
+  }
+  .ktk-artinama h6 {
+    font-size: 14px;
+  }
+  .ktk-artinama p {
+    font-size: 11px;
+  }
+
+  /* about3 */
+  .ktk-logo {
+    width: 68%;
+  }
+  .text-about3 {
+    width: 32rem;
+    height: auto;
+  }
+
+  /* ----------------------------------------------------- */
   /* footer */
   footer .row-foot {
     align-items: flex-start;
