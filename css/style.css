@@ -1048,6 +1048,16 @@ footer .copyright {
   .form {
     margin: 0 5rem 10rem 5rem;
   }
+  form h1 {
+    font-size: 18px;
+  }
+  .label-form label {
+    font-size: 12px;
+  }
+  form input,
+  form textarea {
+    font-size: 12px;
+  }
   /* ----------------------------------------------------- */
   /* maintenance */
   .maintenance-img img {
@@ -1056,6 +1066,7 @@ footer .copyright {
   .content-maintenance {
     margin-top: 1rem;
   }
+
   /* ----------------------------------------------------- */
   /* footer */
   footer .row-foot {
