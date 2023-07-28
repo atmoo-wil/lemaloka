@@ -915,15 +915,15 @@ footer .copyright {
   /* about */
   .about .row-about {
     display: block;
-    margin: 1rem 3.5rem;
+    margin: 1rem 4rem;
   }
   .text-about {
-    margin-left: 3.5rem;
+    margin-left: 4rem;
     font-size: 20px;
   }
 
   .content-about {
-    width: 90%;
+    width: 99%;
     margin: 0;
   }
 
@@ -931,21 +931,23 @@ footer .copyright {
     font-size: 16px;
   }
   .content-about h2 {
+    margin-top: 20rem;
     font-size: 18px;
+    text-align: center;
   }
 
   .content-about p {
     font-size: 14px;
-    margin-top: 20rem;
   }
 
   .about .about-img {
-    margin: -6rem 5rem 0 5rem;
+    margin: -11rem 5rem 0 5rem;
   }
 
   .about .about-img img {
     width: 80%;
     height: auto;
+    margin: 0 2rem;
   }
 
   /* footer */
