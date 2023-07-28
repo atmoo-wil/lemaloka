@@ -543,12 +543,10 @@ li.dropdown {
 /* ------------------------------------------------------------------ */
 /* contact start */
 .row-contact {
-  /* min-height: 97vh; */
-  width: 100%;
   display: flex;
   align-items: center;
   /* padding: 0 4.5%; */
-  margin: 3rem 15rem 0 0;
+  margin: 3rem 10rem 15rem 10rem;
   justify-content: space-between;
 }
 
@@ -558,13 +556,13 @@ li.dropdown {
 }
 
 .form {
-  width: 500px;
-  height: 590px;
-  border-radius: 10px;
+  width: 28rem;
+  height: 37rem;
+  border-radius: 0.625rem;
   background-color: #eaeaea;
   border: 1px solid black;
-  font-size: 16px;
-  margin: 0 8rem 10rem 0;
+  font-size: 1rem;
+  /* margin: 0 8rem 10rem 0; */
   padding: 2rem 3rem;
 }
 
@@ -582,11 +580,11 @@ li.dropdown {
 }
 
 .closebtn {
-  margin: 0 1rem 0 0.2rem;
+  margin: -0.1rem 1rem 0 0.2rem;
   font-weight: bold;
   float: right;
-  font-size: 22px;
-  line-height: 20px;
+  font-size: 1.375rem;
+  line-height: 1.25rem;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -596,7 +594,7 @@ li.dropdown {
 }
 
 .form h1 {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -608,11 +606,11 @@ li.dropdown {
 
 .btn-form {
   width: 100%;
-  height: 47px;
+  height: 2.9375rem;
   background-color: #0038ff;
   color: white;
   border-radius: 10px;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: amaranth;
   margin-top: 1rem;
 }
@@ -1037,6 +1035,20 @@ footer .copyright {
   }
   .content-blog {
     margin-bottom: 5rem;
+  }
+  /* ----------------------------------------------------- */
+  /* contact */
+  .row-contact {
+    display: block;
+    margin: 0;
+  }
+  .contact-img {
+    margin: 4rem 7rem 5rem 7rem;
+  }
+  .form {
+    margin: 0 5rem 10rem 5rem;
+  }
+  .closebtn {
   }
 
   /* ----------------------------------------------------- */
