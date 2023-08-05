@@ -912,9 +912,13 @@ footer .copyright {
   line-height: 1.125rem;
   font-weight: 500;
 }
-.post-a {
+.post-a a {
   font-size: 0.75rem;
+  margin: 1rem 2rem 0 2rem;
   margin-top: 0.3rem;
+  line-height: 2rem;
+  color: #0c478c;
+  font-family: barlow;
 }
 
 .side-img2 {
@@ -1264,13 +1268,86 @@ footer .copyright {
     display: inline-block;
     min-height: 0;
     justify-content: none;
+    width: 100%;
   }
   .contain-blog {
-    /* width: ; */
+    width: 34rem;
+    height: auto;
+    margin: 10rem auto 10rem auto;
   }
   .sidebar-blog {
-    margin: 0 auto 65rem auto;
-    /* position: relative; */
-    /* width: ; */
+    margin: 0 auto 10rem auto;
+    width: 32rem;
+    height: auto;
+  }
+  .contain-blog .kategori-blog {
+    font-size: 10px;
+    width: 8rem;
+    height: 1.5rem;
+  }
+  .contain-blog h1 {
+    font-size: 22px;
+  }
+  .ikon-contain-blog {
+    margin: 1.5rem 3rem;
+    font-size: 10px;
+  }
+  .img-content-blog img {
+    width: 28rem;
+    height: auto;
+  }
+  .contain-blog .text-blog {
+    font-size: 12px;
+    line-height: 2rem;
+    margin: 1.5rem 2rem 5rem 2rem;
+  }
+  .nav-blog {
+    font-size: 10px;
+    margin: 0 2rem;
+  }
+
+  .sidebar-blog .tentang,
+  .sidebar-blog .medsos,
+  .sidebar-blog .postingan-lainnya,
+  .sidebar-blog .arsip-blog {
+    margin-bottom: 10rem;
+    padding-bottom: 3rem;
+  }
+
+  .sidebar-blog .tentang h3,
+  .sidebar-blog .medsos h3,
+  .sidebar-blog .postingan-lainnya h3,
+  .sidebar-blog .arsip-blog h3 {
+    font-size: 12px;
+  }
+  .tentang img {
+    width: 20rem;
+    height: auto;
+  }
+  .tentang p,
+  .tentang-a a {
+    margin: 1rem 4rem 0 4rem;
+    font-size: 12px;
+    line-height: 2rem;
+  }
+  .ikon-blog-medsos {
+    margin: 4rem 3rem 2rem 0;
+  }
+  .side-blog1 {
+    margin: 5rem 2rem;
+  }
+  .side-blog1-img {
+    width: 10rem;
+    height: auto;
+  }
+  .side-blog1-p {
+    font-size: 12px;
+    margin: 0;
+    line-height: 1.5rem;
+    width: 15rem;
+    margin-bottom: 1rem;
+  }
+  .post-a a {
+    font-size: 12px;
   }
 }
