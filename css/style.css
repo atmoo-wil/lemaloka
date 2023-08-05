@@ -1039,7 +1039,7 @@ footer .copyright {
   right: 200%;
 } */
 /* mobile phone */
-@media (max-width: 360px) {
+@media (max-width: 414px) {
   html {
     font-size: 60%;
   }
@@ -1257,5 +1257,18 @@ footer .copyright {
   }
   footer .footer-line {
     margin: 3rem 5rem;
+  }
+  /* ----------------------------------------------------- */
+  /* content-blog */
+  .container-blog {
+    display: inline-block;
+    min-height: 0;
+    justify-content: none;
+  }
+  .contain-blog {
+    /* width: ; */
+  }
+  .sidebar-blog {
+    margin: 0 auto 10rem auto;
   }
 }
