@@ -1269,6 +1269,8 @@ footer .copyright {
     /* width: ; */
   }
   .sidebar-blog {
-    margin: 0 auto 10rem auto;
+    margin: 0 auto 65rem auto;
+    /* position: relative; */
+    /* width: ; */
   }
 }
