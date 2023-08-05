@@ -1,3 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lemaloka Bena Winaya</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome icon -->
+    <script
+      script
+      src="https://kit.fontawesome.com/e2bdd0b594.js"
+      crossorigin="anonymous"
+    ></script>
+
+<script src="
+https://cdn.jsdelivr.net/npm/iobroker.icons-icons8@0.0.1/Gruntfile.min.js
+"></script>
+    <!-- my style -->
+  <style type="text/css">
 :root {
   --primary: #0075ff;
   --second: #0c478c;
@@ -742,190 +770,7 @@ footer .copyright {
   padding-bottom: 3rem;
 }
 /* footer end */
-/* --------------------------------------------------------------------- */
-/* contain-blog start */
-.container-blog {
-  background-color: #f8f8f8;
-  min-height: 100vh;
-  display: flex;
-  justify-content: space-between;
-}
 
-.contain-blog {
-  margin: 12rem 0 5rem 4.5rem;
-  padding: 1rem;
-  background-color: white;
-  width: 48.4375rem;
-  height: 89.0625rem;
-  text-align: center;
-}
-
-.contain-blog .kategori-blog {
-  background-color: #0c478c;
-  color: white;
-  width: 5.1rem;
-  height: 1.1rem;
-  margin: 0 auto 0.5rem auto;
-  font-size: 0.8rem;
-  text-align: center;
-  border-radius: 2px;
-}
-
-.contain-blog h1 {
-  font-size: 2rem;
-}
-
-.ikon-contain-blog {
-  margin: 1rem 15rem 0 15rem;
-  display: flex;
-  justify-content: space-between;
-  font-size: 0.64rem;
-}
-.pembuat-blog,
-.tanggal-blog,
-.blmtau,
-.sebelum-blog,
-.setelah-blog {
-  display: inline-flex;
-}
-.ikon-blog {
-  margin: 0.05rem 0.3rem 0 0;
-}
-
-.img-content-blog img {
-  margin-top: 1.5rem;
-  width: 34.125rem;
-  height: 18.3125rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
-}
-.contain-blog .text-blog {
-  margin: 1.5rem 4rem 5rem 4rem;
-  text-align: justify;
-  font-family: barlow;
-  font-size: 0.9rem;
-  line-height: 1.5625rem;
-}
-
-.blog-garis img {
-  width: 83%;
-}
-
-.nav-blog {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 4rem;
-}
-
-.nav-ikonBlog1 {
-  margin: -0.3rem 0.5rem 0 0;
-  color: #0c478c;
-}
-.nav-ikonBlog2 {
-  margin: -0.3rem 0 0 0.5rem;
-  color: #0c478c;
-}
-.nav-blog img {
-  height: 3rem;
-  width: 0.1rem;
-  margin-top: -0.1rem;
-}
-/* ------------------------------------------------------ */
-/* side start */
-.sidebar-blog {
-  margin: 12rem 4rem 0 3rem;
-  width: 19.375rem;
-  height: 25.4375rem;
-  text-align: center;
-}
-
-.sidebar-blog .tentang,
-.sidebar-blog .medsos,
-.sidebar-blog .postingan-lainnya,
-.sidebar-blog .arsip-blog {
-  background-color: white;
-  margin-bottom: 3.25rem;
-  padding-bottom: 2rem;
-}
-
-.sidebar-blog .tentang h3,
-.sidebar-blog .medsos h3,
-.sidebar-blog .postingan-lainnya h3,
-.sidebar-blog .arsip-blog h3 {
-  background-color: #0c478c;
-  color: white;
-  padding: 0.7rem 0;
-  font-size: 1.1rem;
-  font-weight: 100;
-}
-
-.tentang img {
-  margin: 3rem 0 1rem 0;
-  width: 12.0625rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 0.2rem;
-  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0);
-}
-
-.tentang p {
-  font-family: barlow;
-  margin: 0 3rem;
-  text-align: justify;
-  font-size: 0.875rem;
-  line-height: 1.125rem;
-}
-
-.tentang-a {
-  margin-top: 1.5rem;
-}
-.tentang-a a {
-  color: #0c478c;
-  font-family: barlow;
-  font-weight: 600;
-  font-size: 0.875.rem;
-}
-.ikon-blog-medsos {
-  color: #000;
-  margin: 3rem 1rem 1rem 0;
-}
-.side-blog1 {
-  margin: 3rem 1rem 1rem 1rem;
-  display: flex;
-  justify-content: space-between;
-}
-.side-blog1-img {
-  width: 5.8125rem;
-  height: 5rem;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-size: cover;
-  background-position: 0.01rem;
-  background-repeat: no-repeat;
-  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.1);
-  background-image: url("../assets/4.jpg");
-}
-.side-blog1-p {
-  font-size: 0.75rem;
-  font-family: barlow;
-  text-align: justify;
-  width: 9.8125rem;
-  margin: 0.2rem 0.7rem 0 0;
-  line-height: 1.125rem;
-  font-weight: 500;
-}
-.post-a {
-  font-size: 0.75rem;
-  margin-top: 0.3rem;
-}
-
-.side-img2 {
-  background-image: url("../assets/3.jpg");
-}
-.side-img3 {
-  background-image: url("../assets/6.jpg");
-}
-.dropdown-arsip {
-  margin: 1rem 0 0 0;
-}
 /* media queries */
 /* laptop */
 @media (max-width: 1440px) {
@@ -1259,3 +1104,238 @@ footer .copyright {
     margin: 3rem 5rem;
   }
 }
+
+----------------------------------------------- */
+  </style>
+  </head>
+
+  <body>
+    <!-- navbar start-->
+    <header class="navbar">
+      <a href="https://atmoo-wil.github.io/lemaloka" class="navbar-logo"
+        >Lemaloka</a
+      >
+
+      <div class="navbar-nav">
+        <span class="namaMenu" id="namaMenu">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li class="dropdown">
+              <a href="#">Others</a>
+              <ul class="isi-dropdown">
+                <li>
+                  <a href="https://www.instagram.com/atmoo.wil/" target="_blank"
+                    >Instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCRsCW3QpVmo7tu4UcHmCdCQ"
+                    target="_blank"
+                    >Youtube</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.tiktok.com/@lemaloka.winaya"
+                    target="_blank"
+                    >Tiktok</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </span>
+        <div class="navbar-icon">
+          <a href="#" id="search"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+          <a href="#" id="menu"><i class="fa-solid fa-bars"></i></a>
+        </div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="cari disini..." />
+        <label for="search-box"></label>
+      </div>
+
+      <!-- <div class="navbar-extra">
+
+      </div> -->
+    </header>
+    <!-- navbar end-->
+
+    <!-- hero (baris 1) -->
+    <section id="home" class="hero">
+      <div class="content">
+        <span>
+          <h1>Selamat datang di Lemaloka</h1>
+          <p>
+            Sebuah situs web berisi informasi dan tulisan yang siapa tau
+            bermanfaat untuk edukasi, inspiratif, maupun hanya sekedar hiburan
+            hehe..
+          </p>
+        </span>
+        <a href="./maintenance.html">
+          <button class="hero-btn">Cari Tulisan</button>
+        </a>
+      </div>
+
+      <div class="hero-img">
+        <img src="./assets/18915856-removebg-preview.png" alt="orang" />
+      </div>
+    </section>
+    <div class="hero-garis">
+      <img src="./assets/Line 1.png" alt="" />
+    </div>
+
+    <section id="home-2" class="home-2">
+      <div class="row-home2">
+        <div class="home-2-img">
+          <img src="./assets/33366-removebg-preview.png" alt="ketawa" />
+        </div>
+
+        <div class="home-2-tulisan">
+          <span>
+            <h1>Apa yang baru?</h1>
+            <p>
+              Tulisan baru kemarin nampak lucu jika dibaca secara mendalam dan
+              beruntun. Simak keseruan dan pantun baru yang dibuat!
+            </p>
+          </span>
+          <a href="./maintenance.html">
+            <button class="hero-btn">Cek disini</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="row-foot">
+        <div class="kolom1-foot">
+          <div class="footer-img">
+            <img src="./assets/logo.png" alt="" />
+          </div>
+          <div class="contact-foot">
+            <h4>Contact</h4>
+            <a href="https://www.linkedin.com/in/atmoo-wil/" target="_blank">
+              <p>
+                <i
+                  class="fa-brands fa-linkedin fa-xl"
+                  style="margin-right: 0.8rem"
+                ></i
+                >atmoo-wil
+              </p>
+            </a>
+            <p>
+              <i
+                class="fa-regular fa-envelope fa-xl"
+                style="margin-right: 0.7rem"
+              ></i
+              >wilaga.atmo@gmail.com
+            </p>
+            <p>
+              <i
+                class="fa-solid fa-location-dot fa-xl"
+                style="margin-right: 1rem"
+              ></i
+              >Indonesia
+            </p>
+          </div>
+        </div>
+        <div class="social-media">
+          <h4>Social Media</h4>
+          <div class="icon-media">
+            <a href="https://www.instagram.com/atmoo.wil/" target="_blank">
+              <i class="fa-brands fa-instagram fa-2xl"></i>
+            </a>
+            <a href="https://www.tiktok.com/@lemaloka.winaya" target="_blank">
+              <i class="fa-brands fa-tiktok fa-2xl"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCRsCW3QpVmo7tu4UcHmCdCQ"
+              target="_blank"
+            >
+              <i class="fa-brands fa-youtube fa-2xl"></i>
+            </a>
+            <a href="https://twitter.com/lemalokawinaya" target="_blank">
+              <i class="fa-brands fa-twitter fa-2xl"></i>
+            </a>
+            <a href="https://github.com/atmoo-wil" target="_blank">
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-line">
+        <img src="./assets/Line 2.png" alt="" />
+      </div>
+      <p class="copyright">Copyright © 2023 Lemaloka</p>
+    </footer>
+    <!-- my javascript -->
+    <script>
+    // toggle active class
+const namaMenu = document.querySelector(".namaMenu");
+
+// ketika menu diklik
+document.querySelector("#menu").onclick = () => {
+  namaMenu.classList.toggle("active");
+};
+
+// Toggle class active untuk search form
+const searchForm = document.querySelector(".search-form");
+const searchBox = document.querySelector("#search-box");
+
+document.querySelector("#search").onclick = (e) => {
+  searchForm.classList.toggle("active");
+  searchBox.focus();
+  e.preventDefault();
+};
+
+// ketika di luar sidebar
+const menu = document.querySelector("#menu");
+const sb = document.querySelector("#search");
+
+document.addEventListener("click", function (e) {
+  if (!menu.contains(e.target) && !namaMenu.contains(e.target)) {
+    namaMenu.classList.remove("active");
+  }
+  if (!sb.contains(e.target) && !searchForm.contains(e.target)) {
+    searchForm.classList.remove("active");
+  }
+});
+
+const scriptURL =
+  "https://script.google.com/macros/s/AKfycbyCcqulszlWLVLo5RusL3LBDA5A1Rx4tvSL-4hoZZ-pkBXM8KrWxztvud6sAZ0DjpTYbA/exec";
+const form = document.forms["lemaloka-contact-form"];
+const btnKirim = document.querySelector(".btn-kirim");
+const btnLoading = document.querySelector(".btn-loading");
+const alert = document.querySelector(".alert-form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  // ketika klik kirim
+  // tampilkan tombol loading & hilangkan tombol kirim
+  btnKirim.classList.toggle("btn-loading");
+  btnLoading.classList.toggle("btn-loading");
+  fetch(scriptURL, { method: "POST", body: new FormData(form) })
+    .then((response) => {
+      btnKirim.classList.toggle("btn-loading");
+      btnLoading.classList.toggle("btn-loading");
+      alert.classList.toggle("alert-none");
+      form.reset();
+      console.log("Success!", response);
+    })
+    .catch((error) => console.error("Error!", error.message));
+});
+
+document.querySelector(".closebtn").onclick = () => {
+  alert.classList.toggle("alert-none");
+};
+
+    </script>
+  </body>
+</html>
