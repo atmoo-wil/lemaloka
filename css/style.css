@@ -1274,6 +1274,7 @@ footer .copyright {
     width: 34rem;
     height: auto;
     margin: 10rem auto 10rem auto;
+    padding-bottom: 8rem;
   }
   .sidebar-blog {
     margin: 0 auto 10rem auto;
@@ -1331,7 +1332,7 @@ footer .copyright {
     line-height: 2rem;
   }
   .ikon-blog-medsos {
-    margin: 4rem 3rem 2rem 0;
+    margin: 4rem 1.5rem 2rem 1.5rem;
   }
   .side-blog1 {
     margin: 5rem 2rem;
