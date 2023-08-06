@@ -1147,7 +1147,7 @@ footer .copyright {
   }
   .text-about {
     margin-left: 4rem;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .content-about {
@@ -1157,29 +1157,26 @@ footer .copyright {
 
   .content-about h3 {
     font-size: 16px;
-    /* text-align: center; */
   }
   .content-about h2 {
-    /* margin-top: 20rem; */
     font-size: 18px;
-    /* text-align: center; */
   }
 
   .content-about p {
     font-size: 14px;
     margin-top: 21rem;
     margin-bottom: 0;
+    line-height: 2rem;
   }
 
   .about .about-img {
-    /* margin: -11rem 5rem 0 5rem; */
-    margin: -5rem 5rem 0 5rem;
+    margin: -7rem auto 0 auto;
+    padding: 0 5rem;
   }
 
   .about .about-img img {
-    width: 80%;
+    width: 18rem;
     height: auto;
-    margin: 0 2rem;
   }
 
   /* about 2 */
@@ -1188,8 +1185,11 @@ footer .copyright {
     height: auto;
     padding-bottom: 8rem;
   }
+  .about {
+    margin-bottom: 18rem;
+  }
   .container-about2 h1 {
-    font-size: 18px;
+    font-size: 22px;
   }
   .ktk-artinama {
     width: auto;
@@ -1226,8 +1226,12 @@ footer .copyright {
     width: 68%;
   }
   .text-about3 {
-    width: 32rem;
+    width: 100%;
+    padding: 0 4rem;
     height: auto;
+    line-height: 2.5rem;
+    font-size: 14px;
+    text-align: justify;
   }
   /* ----------------------------------------------------- */
   /* blog start */
@@ -1386,7 +1390,7 @@ footer .copyright {
   .navbar .navbar-nav .namaMenu {
     top: 100%;
     right: -150%;
-    width: 38rem;
+    width: 33rem;
   }
   .content h1 {
     font-size: 22px;
