@@ -1388,4 +1388,25 @@ footer .copyright {
     right: -150%;
     width: 38rem;
   }
+  .content h1 {
+    font-size: 22px;
+  }
+  .hero-img {
+    margin: -36rem 0rem 0 0rem;
+    padding: 0 8rem;
+  }
+  .hero-img img {
+    width: 15rem;
+    height: auto;
+    margin: 0 1rem;
+  }
+  .home-2-img {
+    padding: 0 2rem;
+  }
+  .home-2-img img {
+    width: 23rem;
+    height: auto;
+    align-self: center;
+    margin: 3rem;
+  }
 }
