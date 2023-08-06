@@ -1336,7 +1336,7 @@ footer .copyright {
     margin: 1.5rem 2rem 5rem 2rem;
   }
   .nav-blog {
-    font-size: 10px;
+    font-size: 12px;
     margin: 0 2rem;
   }
 
@@ -1447,5 +1447,21 @@ footer .copyright {
   }
   .maintenance-img img {
     margin: 0 4.5rem;
+  }
+  .contain-blog {
+    width: 30rem;
+  }
+  .img-content-blog img {
+    width: 26rem;
+  }
+  .contain-blog .text-blog {
+    margin: 1.5rem 1rem 5rem 1rem;
+  }
+  .nav-blog {
+    margin: 0 1rem;
+  }
+  .sidebar-blog {
+    margin: 0;
+    padding: 0 1rem;
   }
 }
