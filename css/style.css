@@ -1413,4 +1413,19 @@ footer .copyright {
     align-self: center;
     margin: 3rem;
   }
+  .about .about-img {
+    margin: -7rem auto 0 auto;
+    padding: 0 3rem;
+  }
+  .ktk-artinama {
+    margin: 5rem auto 0 auto;
+    padding: 2rem;
+    width: 25rem;
+  }
+  .ktk-logo {
+    width: 26rem;
+  }
+  .about {
+    margin-bottom: 25rem;
+  }
 }
