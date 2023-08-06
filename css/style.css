@@ -1436,4 +1436,13 @@ footer .copyright {
   #isi-blog {
     margin-bottom: 10rem;
   }
+  .contact h1 {
+    margin-left: 4rem;
+  }
+  .contact-img {
+    margin: 4rem;
+  }
+  .form {
+    margin: 2rem 2rem 10rem 2rem;
+  }
 }
