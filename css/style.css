@@ -1248,7 +1248,6 @@ footer .copyright {
 
   .row-isiBlog {
     display: block;
-    /* margin: 5rem; */
     align-items: center;
   }
   .content-blog .img-blog {
@@ -1427,5 +1426,14 @@ footer .copyright {
   }
   .about {
     margin-bottom: 25rem;
+  }
+  .blog-btn {
+    padding: 4px 2px;
+  }
+  .row-isiBlog {
+    margin: 5rem 4.5rem;
+  }
+  #isi-blog {
+    margin-bottom: 10rem;
   }
 }
