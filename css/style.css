@@ -961,9 +961,6 @@ footer .copyright {
     padding: 0rem 0rem;
     margin: 5rem 13rem;
   }
-  .hero-img {
-    display: none;
-  }
 }
 
 @media (max-width: 873px) {
@@ -1045,37 +1042,63 @@ footer .copyright {
 /* mobile phone */
 @media (max-width: 414px) {
   html {
-    font-size: 60%;
+    font-size: 70%;
+  }
+  .navbar {
+    height: 5rem;
   }
 
+  .navbar .navbar-nav .namaMenu {
+    position: absolute;
+    top: 100%;
+    right: -150%;
+    width: 38rem;
+  }
   .hero {
     padding: 0;
     margin: 0;
     margin-top: 8rem;
     min-height: 30vh;
     align-content: center;
+    display: block;
   }
 
   .content {
     align-content: center;
-    margin: 5rem 4rem 2rem 4rem;
-    /* width: 55%;
-    height: auto; */
+    margin: 25rem 0 2rem 0;
+    padding: 0 4rem;
+    width: 100%;
+    height: auto;
   }
 
   .content h1 {
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
   }
 
-  .content p,
+  .content p {
+    line-height: 2.2rem;
+    font-size: 14px;
+  }
   .content button {
     font-size: 14px;
+  }
+
+  .hero-img {
+    margin: -35rem 0rem 0 0rem;
+    width: 100%;
+    padding: 0 10rem;
+  }
+  .hero-img img {
+    width: 15rem;
+    height: auto;
+    margin: 0 1rem;
   }
 
   .hero-garis {
     width: 100%;
     align-items: center;
+    margin-top: 10rem;
   }
   .hero-garis img {
     width: 80%;
@@ -1089,16 +1112,22 @@ footer .copyright {
   }
 
   .home-2-img {
-    margin: 8rem 5rem 0rem 5rem;
+    margin: 8rem 0;
+    margin-bottom: 0;
+    padding: 0 5rem;
   }
   .home-2-img img {
-    width: 25rem;
+    width: 23rem;
     height: auto;
     align-self: center;
-    /* margin: auto; */
+    margin: 2rem;
   }
   .home-2 .home-2-tulisan {
-    margin: 5rem 4rem 8rem 4rem;
+    margin: 0;
+    margin-bottom: 10rem;
+    width: 100%;
+    height: auto;
+    padding: 0 4rem;
   }
   .home-2-tulisan h1 {
     font-size: 20px;
@@ -1107,6 +1136,7 @@ footer .copyright {
   .home-2-tulisan p,
   .home-2-tulisan button {
     font-size: 14px;
+    line-height: 2.2rem;
   }
 
   /* about */
@@ -1350,5 +1380,12 @@ footer .copyright {
   }
   .post-a a {
     font-size: 12px;
+  }
+}
+@media (max-width: 360px) {
+  .navbar .navbar-nav .namaMenu {
+    top: 100%;
+    right: -150%;
+    width: 38rem;
   }
 }
